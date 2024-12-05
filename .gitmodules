@@ -1,0 +1,12 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:BOID-Smart-Assistent/boid-api.git
+[submodule "algorithm"]
+	path = algorithm
+	url = git@github.com:BOID-Smart-Assistent/BOID-algorithm.git
+[submodule "model"]
+	path = model
+	url = git@github.com:BOID-Smart-Assistent/BOID-model.git
+[submodule "llm"]
+	path = llm
+	url = git@github.com:BOID-Smart-Assistent/boid-rules.git
