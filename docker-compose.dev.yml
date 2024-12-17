@@ -23,6 +23,7 @@ services:
      - ollama
    networks:
      - boid
+   restart: unless-stopped
   ollama:
     extends:
       file: llm/docker-compose.dev.yml
